@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Electric Cars</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+        <body>
+
+            <header class ="structrual">
+               <h1> <p>Electric Cars</p></h1>
+            </header>
+
+            <nav class="stucture">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <section>
+            <main class="structrual">
+                <h2>Contact</h2>
+                <form>
+                    <div>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name" required autofocus>
+                    </div>
+
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="fieldset">
+                        <ledged>What section of PROG1245 are you in?</ledged>
+                        <br>
+                        <input type="radio" id="4" name="sec" value="4" required>
+                        <label id="section4">Section 4</label>
+                        <br>
+                        <input type="radio" id="5" name="sec" value="5" required checked>
+                        <label id="section5">Section 5</label>
+                        <br>        
+                        <input type="radio" id="8" name="sec" value="8" required>
+
+                        <label id="section8">Section 8</label>
+                    </div>
+
+                    <div>
+                        <label for="helpin">What do you need help with? </label>
+                        <select id="helpin" name="helpin" required>
+                            <option selected>Select Option</option>
+                            <option id="html">HTML</option>
+                            <option id="css">CSS</option>
+                            <option id="both">Both(HTML&CSS)</option>
+                        </select>
+                    </div>
+                     
+                    <div>
+                        <label for="comments">Comments</label>
+                        <textarea id="comments" name="comments" rows="4" required></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="human" name="human" value="true" required>
+                        <label for="human">I am human</label>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </main>
+
+            <aside class="structrual">
+                <h2>Vehicals</h2>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Hybrid_vehicle">Hybrid Cars</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Electric_car">Electric Cars</a></li>
+                </ul>
+            </aside>
+            </section>
+            <footer class="structrual">
+                <p>&copy Arya Miteshbhai Patel - 2024</p>
+            </footer>
+        </body>
+</html>

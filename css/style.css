@@ -1,0 +1,152 @@
+/* Name- Arya Miteshbhai Patel & Student number- 8980267 */ 
+html{
+    size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: hsla(212, 56%, 86%, 0.9);
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    color: rgb(71, 84, 201);
+    font-size: 1.5em;
+}
+header{
+    background-color:hsl(78, 51%, 65%);
+}
+main{
+    background-color:hsl(145, 74%, 75%);
+    padding:10px;
+    flex: 2 1 70%;
+}
+aside{
+    background-color:hsl(339, 38%, 60%);
+    padding:10px;
+    flex: 1 1 30%;
+}
+footer{
+    background-color:hsl(293, 40%, 62%);
+}
+footer p{
+    font-size:small;
+}
+.structrual{
+    margin: 1rem;
+    border: 10%;
+    padding: 10px;
+}
+#paragraph1{
+    color:rgb(168, 13, 13) ;
+}
+#paragraph2{
+    color: rgb(109, 17, 72);
+}
+a:hover{
+    color:#ffff00;
+}
+h1{
+    color: blue; 
+    font-size: 2.5rem;
+}
+aside ul li a{
+    color:rgb(9, 9, 87);
+}
+aside ul {
+    list-style-type: square;
+  }
+
+aside li {
+     line-height:1.5em ;
+    }
+aside li a:hover{
+    color:rgb(214, 47, 103);
+    background-color: grey;
+}
+nav li{
+    display: inline;
+    list-style: none;
+}
+nav li a{
+    padding: 1em;
+}
+nav a{
+    border: 0.2rem solid indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    color:indigo;
+}
+nav a:hover{
+    background-color: indigo;
+    color: cornsilk;
+    border:cornsilk;
+}
+form{
+    border: 0.2rem dashed rgb(8, 70, 8);
+    padding: 1em;
+}
+main, aside{
+    height: auto;
+}
+input[type="text"], input[type="email"], input[type="submit"], select, option{
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+input[type="radio"], input[type="checkbox"]{
+    height: 2em;
+    width: 2em;
+}
+select, option, label, legend, input[type="submit"]{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+textarea{
+    width: 50%;
+    display: block;
+}
+fieldset{
+    border: none;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+figure {
+    border: 1px solid black;
+}
+
+figure img {
+    width: 80%;
+    height: 80%;
+}
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+
+    #gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    body {
+        flex-direction: column-reverse; 
+    }
+}
